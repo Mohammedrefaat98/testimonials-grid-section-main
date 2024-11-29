@@ -1,0 +1,90 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+    --Barlow-Semi-Condensed:"Barlow Semi Condensed", sans-serif;
+}
+h3{
+    font-weight: 600;
+}
+.Moderate-violet{
+    background-color: var(--Moderate-violet);
+    color: white;
+}
+.Moderate-violet p{
+    color: var(--Light-gray);
+}
+.Very-dark-blackish-blue{
+    background-color: var(--Very-dark-blackish-blue);
+    color: white;
+}
+
+.Very-dark-grayish-blue{
+    background-color: var(--Very-dark-grayish-blue);
+    color: white;
+}
+.Very-dark-grayish-blue p{
+    color: var(--Light-gray);
+}
+.Very-dark-blackish-blue p{
+    color: var(--Light-gray);
+}
+.white{
+    background-color: var(--White);
+    color: var(--Very-dark-blackish-blue);
+}
+
+html,body{
+    background-color: var(--Light-grayish-blue);
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: var(--Barlow-Semi-Condensed);
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 2em;
+    padding: 0 5em;
+}
+.big-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2em;
+}
+.upper-big-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2em;
+}
+.lower-big-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2em;
+}
+
+.card{
+    box-shadow: 2px 2px 20px 0 var(--Grayish-Blue);
+    padding: 1rem 2rem;
+    border-radius: 1em;
+}
+
+.account{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--Barlow-Semi-Condensed);
+}
+.account img{
+    border-radius: 2em;
+    margin-right: 1em
+}
+
